@@ -28,8 +28,9 @@ const NewNews = () => {
                 {
                     news_data.map((data, i) =>
                     <div key={i} className='flex flex-col gap-1.5'>
+                        {<hr className='mt-7 mb-5 h-0.5 border-t-0 bg-neutral-100 opacity-100' />}
                         <h3 className='text-Off-white text-xl font-bold'>{data.heading}</h3>
-                        <p className='text-[15px]'>{data.paragraph}</p>
+                        <p className='text-[15px] leading-7'>{data.paragraph}</p>
                     </div>  
                 )}
             </div>    

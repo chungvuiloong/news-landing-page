@@ -1,5 +1,7 @@
 import React from 'react'
 import Image_01 from '@/assets/images/image-retro-pcs.jpg'
+import Image_02 from '@/assets/images/image-top-laptops.jpg'
+import Image_03 from '@/assets/images/image-gaming-growth.jpg'
 import Image from 'next/image'
 
 const TopThree = () => {

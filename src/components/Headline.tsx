@@ -9,7 +9,7 @@ const Headline = () => {
                     We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
                     But is it really fulfilling its promise?
                 </p>
-                <button className='w-fit text-Off-white text-sm font-[500] tracking-[0.25rem] bg-Soft-red py-3 px-8'>READ MORE</button>
+                <button className='w-fit text-Off-white text-sm font-[500] tracking-[0.25rem] bg-Soft-red py-4 px-8'>READ MORE</button>
             </div>
         </section>
     );

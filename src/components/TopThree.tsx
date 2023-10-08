@@ -10,7 +10,7 @@ const TopThree = () => {
             <div className='flex flex-row gap-7'>
                 <Image src={Image_01} alt='Retro computers' />
                 <div className='flex flex-col gap-2'>
-                    <div className='text-3xl font-bold'>01</div>
+                    <div className='text-3xl font-extrabold'>01</div>
                     <div className='text-lg text-Very-dark-blue font-bold'>Reviving Retro PCs</div>
                     <div className='text-Dark-grayish-blue'>What happens when old PCs are given modern upgrades?</div>
                 </div>

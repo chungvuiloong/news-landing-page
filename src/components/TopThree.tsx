@@ -31,14 +31,18 @@ const topThree_data = [
 const TopThree = () => {
     return (
         <section>
-            <div className='flex flex-row gap-7'>
-                <Image src={Image_01} alt='Retro computers' />
-                <div className='flex flex-col gap-2'>
-                    <h3 className='text-3xl font-extrabold'></h3>
-                    <div className='text-lg text-Very-dark-blue font-bold'></div>
-                    <div className='text-Dark-grayish-blue'></div>
-                </div>
-            </div>
+            {
+                topThree_data.map((data, index) =>
+                    <div className='flex flex-row gap-7' key={index}>
+                        <Image src={data.image} alt='Retro computers' />
+                        <div className='flex flex-col gap-2'>
+                            <h3 className='text-3xl font-extrabold'>{data.header_number}</h3>
+                            <div className='text-lg text-Very-dark-blue font-bold'>{data.header}</div>
+                            <div className='text-Dark-grayish-blue'>{data.content}</div>
+                        </div>
+                    </div>
+                )
+            }
         </section>
     );
 };

@@ -3,7 +3,7 @@ import React from 'react';
 const Headline = () => {
     return (
         <section className='flex 2xl:flex-row flex-col'>
-            <div className='text-[40px] text-Very-dark-blue font-extrabold leading-none'>The Bright Future of Web 3.0?</div>
+            <h1 className='text-[40px] text-Very-dark-blue font-extrabold leading-none'>The Bright Future of Web 3.0?</h1>
             
         </section>
     );

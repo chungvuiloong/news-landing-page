@@ -4,7 +4,15 @@ import Image_02 from '@/assets/images/image-top-laptops.jpg'
 import Image_03 from '@/assets/images/image-gaming-growth.jpg'
 import Image from 'next/image'
 
-const topThree_data = [
+type TopThreeItem = {
+    alt: string;
+    image: typeof Image_01 | typeof Image_02 | typeof Image_03;
+    header_number: string;
+    header: string;
+    content: string;
+  };
+  
+  const topThree_data: TopThreeItem[] = [
     {
         alt: 'Retro Computers',
         image: Image_01,

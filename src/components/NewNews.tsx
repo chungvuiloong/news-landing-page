@@ -23,14 +23,14 @@ const news_data: NewsItem[] = [
 const NewNews = () => {
     return (
         <section className='p-5 bg-Very-dark-blue'>
-            <h2 className='text-Soft-orange text-3xl font-bold'>New</h2>
+            <h2 className='mb-8 text-Soft-orange text-3xl font-bold'>New</h2>
             <div>
                 {
                     news_data.map((data, i) =>
                     <div key={i} className='flex flex-col gap-1.5'>
                         <h3 className='text-Off-white text-xl font-bold'>{data.heading}</h3>
                         <p className='text-[15px]'>{data.paragraph}</p>
-                    </div>
+                    </div>  
                 )}
             </div>    
         </section>

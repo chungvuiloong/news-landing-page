@@ -27,7 +27,7 @@ const NewNews = () => {
             <div>
                 {
                     news_data.map((data, i) =>
-                    <div key={i}>
+                    <div key={i} className='flex flex-col gap-1.5'>
                         <h3 className='text-Off-white text-xl font-bold'>{data.heading}</h3>
                         <p className='text-[15px]'>{data.paragraph}</p>
                     </div>

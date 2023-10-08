@@ -38,15 +38,15 @@ type TopThreeItem = {
 
 const TopThree = () => {
     return (
-        <section>
+        <section className='flex 2xl:flex-row flex-col'>
             {
                 topThree_data.map((data, index) =>
                     <div className='flex flex-row gap-7' key={index}>
-                        <Image src={data.image} alt='Retro computers' />
+                        <Image src={data.image} alt='Retro computers' height={100} width={100} />
                         <div className='flex flex-col gap-2'>
                             <h3 className='text-3xl font-extrabold'>{data.header_number}</h3>
                             <div className='text-lg text-Very-dark-blue font-bold'>{data.header}</div>
-                            <div className='text-Dark-grayish-blue'>{data.content}</div>
+                            <div className='text-Dark-grayish-blue text-[15px]'>{data.content}</div>
                         </div>
                     </div>
                 )

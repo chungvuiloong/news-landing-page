@@ -1,9 +1,9 @@
-import Image from 'next/image'
+import NewNews from '@/components/NewNews'
 
 export default function Home() {
   return (
     <main>
-
+        <NewNews />
     </main>
   )
 }

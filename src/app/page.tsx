@@ -1,5 +1,6 @@
 import HeadLineImage from '@/components/HeadLineImage'
 import Headline from '@/components/Headline'
+// import HeadlineParagraph from '@/components/HeadlineParagraph'
 import NewPost from '@/components/NewPost'
 import TopThree from '@/components/TopThree'
 
@@ -8,10 +9,16 @@ export default function Home() {
   return (
     <main>
         <div className='container mx-auto'>
-            <div className='grid md:grid-cols-3 grid-cols-1'>
+            <div className='grid gap-7'>
 
-                    <HeadLineImage />
-                    <Headline />
+                        <HeadLineImage />
+                      <Headline />
+                      <NewPost />
+                    
+                  
+                    
+                     
+                     <TopThree />
 
                 {/* <div className='basis-1/3'>
                     <NewPost />

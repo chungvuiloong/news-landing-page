@@ -9,7 +9,7 @@ export default function Home() {
     <main>
         <div className='container mx-auto flex flex-col'>
             <div className='flex 2xl:flex-row flex-col gap-9'>
-                <div className='basis-2/3 flex flex-col gap-y-9'>
+                <div className='basis-2/3 flex flex-col 2xl:gap-y-9 gap-y-6'>
                     <HeadLineImage />
                     <Headline />
                 </div>

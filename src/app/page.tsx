@@ -1,9 +1,24 @@
-import NewNews from '@/components/NewNews'
+import HeadLineImage from '@/components/HeadLineImage'
+import Headline from '@/components/Headline'
+import NewPost from '@/components/NewPost'
+import TopThree from '@/components/TopThree'
+
 
 export default function Home() {
   return (
     <main>
-        <NewNews />
+        <div className='container mx-auto flex flex-col'>
+            <div className='flex 2xl:flex-row flex-col'>
+                <div className='basis-2/3'>
+                    <HeadLineImage />
+                    <Headline />
+                </div>
+                <div className='basis-1/3'>
+                    <NewPost />
+                </div>
+            </div>
+            <TopThree />
+        </div>
     </main>
   )
 }
@@ -14,12 +29,7 @@ export default function Home() {
 // Trending
 // Categories
 
-// The Bright Future of Web 3.0?
 
-// We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-// But is it really fulfilling its promise?
-
-// Read more
 
 // New 
 
@@ -32,14 +42,3 @@ export default function Home() {
 // Is VC Funding Drying Up?
 // Private funding by VC firms is down 50% YOY. We take a look at what that means.
 
-// 01
-// Reviving Retro PCs
-// What happens when old PCs are given modern upgrades?
-
-// 02
-// Top 10 Laptops of 2022
-// Our best picks for various needs and budgets.
-
-// 03
-// The Growth of Gaming
-// How the pandemic has sparked fresh opportunities.

@@ -38,7 +38,7 @@ type TopThreeItem = {
 
 const TopThree = () => {
     return (
-        <section className='h-fit row-span-1 col-span-3'>
+        <section className='h-fit row-start-3 col-start-1 col-end-4'>
             <div className='flex 2xl:flex-row flex-col gap-y-8'>           
                 {
                     topThree_data.map((data, index) =>

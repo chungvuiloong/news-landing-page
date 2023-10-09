@@ -22,7 +22,7 @@ const news_data: NewsItem[] = [
 
 const NewNews = () => {
     return (
-        <section className='p-5 bg-Very-dark-blue'>
+        <section className='h-fit row-start-1 row-end-3 p-5 bg-Very-dark-blue'>
             <h2 className='mb-8 text-Soft-orange text-3xl font-bold'>New</h2>
             <div>
                 {

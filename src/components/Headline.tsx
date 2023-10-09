@@ -2,7 +2,7 @@ import React from 'react';
 
 const Headline = () => {
     return (
-        <section className='row-start-2 col-span-2'>
+        <section className='h-fit row-start-2 col-span-2'>
             <h1 className='2xl:text-6xl text-[40px] text-Very-dark-blue font-extrabold leading-none'>The Bright Future of Web 3.0?</h1>
             <div className='flex flex-col gap-6'>
                 <p className='text-[15px] text-Dark-grayish-blue leading-[26px]'>

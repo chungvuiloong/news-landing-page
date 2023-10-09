@@ -9,6 +9,21 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '4rem',
+        xl: '5rem',
+        '2xl': '6rem'
+      },
+      screens: {
+        // Mobile
+        'sm': '375px',
+        // Desktop
+        '2xl': '1440px',
+      },
+    },
     colors: {
       //  Primary
       'Soft-orange': 'hsl(35, 77%, 62%)',

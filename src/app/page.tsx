@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main>
         <div className='container mx-auto flex flex-col'>
-            <div className='flex 2xl:flex-row flex-col'>
+            <div className='flex 2xl:flex-row flex-col gap-9'>
                 <div className='basis-2/3'>
                     <HeadLineImage />
                     <Headline />

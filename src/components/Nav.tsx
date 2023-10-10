@@ -2,8 +2,9 @@ import React from 'react';
 
 const Nav = () => {
     return (
-        <nav>
-            <ul>
+        <nav className='flex justify-between'>
+            <div>Image</div>
+            <ul className='flex gap-10 text-end'>
                 <li>Home</li>
                 <li>New</li>
                 <li>Popular</li>

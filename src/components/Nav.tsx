@@ -8,7 +8,7 @@ const Nav = () => {
     return (
         <nav className='2xl:pt-[90px] pt-7 flex justify-between'>
             <Image src={Logo} alt='Website logo' className='h-auto 2xl:w-auto w-[50%]'/>
-            <ul className='flex gap-10 text-end text-Dark-grayish-blue'>
+            <ul className='2xl:flex hidden gap-10 text-end text-Dark-grayish-blue'>
                 {
                     nav_link.map((nav, i)=> 
                         <li key={i} className='self-center hover:text-Soft-red cursor-pointer'>

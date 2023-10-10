@@ -23,14 +23,14 @@ const news_data: NewsItem[] = [
 const NewNews = () => {
     return (
         <section className='h-fit row-start-1 row-end-3 2xl:px-8 2xl:py-12 p-5 bg-Very-dark-blue'>
-            <h2 className='2xl:mb-10 mb-8 text-Soft-orange 2xl:text-[50px] text-3xl font-bold'>New</h2>
+            <h2 className='mb-8 text-Soft-orange 2xl:text-[40px] text-3xl font-bold'>New</h2>
             <div>
                 {
                     news_data.map((data, i) =>
                     <div key={i} className='flex flex-col gap-1.5'>
-                        { i !== 0 ? <hr className='mt-7 mb-5 h-0.5 border-t-0 bg-neutral-100 opacity-100' /> : <></>}
-                        <h3 className='text-Off-white 2xl:text-2xl text-xl font-bold'>{data.heading}</h3>
-                        <p className='2xl:text-xl text-[15px] 2xl:leading-8 leading-7'>{data.paragraph}</p>
+                        { i !== 0 ? <hr className='mt-7 mb-5 h-[0.5px] border-t-0 bg-neutral-100 opacity-30' /> : <></>}
+                        <h3 className='text-Off-white text-xl font-bold'>{data.heading}</h3>
+                        <p className='text-[15px] leading-7'>{data.paragraph}</p>
                     </div>  
                 )}
             </div>    

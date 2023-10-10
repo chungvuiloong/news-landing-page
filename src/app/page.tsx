@@ -9,15 +9,14 @@ export default function Home() {
   return (
     <main>
         <div className='container mx-auto'>
-            <div className='grid gap-7'>
+            <div className='2xl:grid gap-8'>
 
-                        <HeadLineImage />
-                      <Headline />
-                      <NewPost />
+                    <HeadLineImage />
+                    <Headline />
                     
                   
                     
-                     
+                    <NewPost />
                      <TopThree />
 
                 {/* <div className='basis-1/3'>

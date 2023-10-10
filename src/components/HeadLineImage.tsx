@@ -5,8 +5,8 @@ import Desktop_Headline_Img from '@/assets/images/image-web-3-desktop.jpg'
 
 const HeadLineImage = () => {
     return (
-        <section className='col-span-2'>
-            <Image src={Desktop_Headline_Img} alt='Headline Image' />
+        <section className='row-start-1 col-span-2 w-full h-full'>
+            <Image src={Desktop_Headline_Img} alt='Headline Image' className=''/>
         </section>
     );
 };

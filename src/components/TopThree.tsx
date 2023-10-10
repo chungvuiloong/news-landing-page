@@ -41,7 +41,7 @@ const TopThree = () => {
         <>                
             {
                 topThree_data.map((data, index) =>
-                    <div className='col-span-1 my-[40px] flex flex-row gap-[26px]' key={index}>
+                    <div className='col-span-1 my-10 flex flex-row gap-[26px]' key={index}>
                         <Image src={data.image} alt='Retro computers' height={100} width={100} />
                         <div className='flex flex-col gap-2'>
                             <h3 className='text-3xl font-extrabold'>{data.header_number}</h3>

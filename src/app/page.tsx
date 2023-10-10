@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main>
         <div className='container mx-auto'>
-            <div className='2xl:grid gap-8'>
+            <div className='2xl:grid grid-cols-3 gap-8'>
 
                     <HeadLineImage />
                     <Headline />

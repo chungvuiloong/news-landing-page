@@ -10,15 +10,18 @@ const Nav = () => {
     const [modal, setModal] = useState(false)
 
     return (
-        <section className='2xl:pt-[90px] pt-7 2xl:pb-7 pb-0'>
-            <nav className='flex justify-between'>            
+        // <section className='2xl:pt-[90px] pt-7 2xl:pb-7 pb-0'>
+        <section>
+            <div className='min-h-screen fixed bg-Soft-red' onClick={()=> setModal(!modal)}>
+                Open
+            </div>
+            <nav className='2xl:pt-[90px] pt-7 2xl:pb-7 pb-0 flex justify-between'>            
                 <div>
                     <Image src={Logo} alt='Website logo' className='2xl:h-[40px] h-[30px] w-auto '/>
                 </div>            
-                <div className='flex justify-between'>
                     {
                         modal ? 
-                        <div className='min-h-screen fixed bg-Soft-red' onClick={()=> setModal(!modal)}>
+                        <div className='' onClick={()=> setModal(!modal)}>
                             Open
                         </div>
                          : 
@@ -42,9 +45,6 @@ const Nav = () => {
                         )
                     }
                 </ul>
-
-            </div>
-            
             </nav>                
 
 

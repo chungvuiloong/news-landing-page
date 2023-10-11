@@ -12,7 +12,10 @@ const Nav = () => {
                 <Image src={Logo} alt='Website logo' className='2xl:h-[40px] h-[30px] w-auto '/>
             </div>
             <div className='h-full my-auto 2xl:hidden block'>
-                <Image src={Hamburger_logo} alt='Hamburger Logo' className=''/>
+                <Image src={Hamburger_logo} alt='Hamburger Logo' className='cursor-pointer'/>
+                <div className='hidden'>
+                    Modal test
+                </div>
             </div>
             <ul className='2xl:flex hidden gap-10 text-end text-Dark-grayish-blue'>
                 {

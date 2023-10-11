@@ -10,20 +10,21 @@ const Nav = () => {
     const [modal, setModal] = useState(false)
 
     return (
-        // <section className='2xl:pt-[90px] pt-7 2xl:pb-7 pb-0'>
-        <section>
-            <div className='min-h-screen fixed bg-Soft-red' onClick={()=> setModal(!modal)}>
-                Open
-            </div>
+        <section>                    
+            {
+                modal ? 
+                    <div className='-pl-[17px] w-screen min-h-screen fixed bg-Soft-red' onClick={()=> setModal(!modal)}>
+                        Open
+                    </div>
+                :  <></>
+            }
             <nav className='2xl:pt-[90px] pt-7 2xl:pb-7 pb-0 flex justify-between'>            
                 <div>
                     <Image src={Logo} alt='Website logo' className='2xl:h-[40px] h-[30px] w-auto '/>
                 </div>            
                     {
                         modal ? 
-                        <div className='' onClick={()=> setModal(!modal)}>
-                            Open
-                        </div>
+                        <></>
                          : 
                         <div className='my-auto 2xl:hidden block' onClick={()=> setModal(!modal)}>
                             <Image src={Hamburger_logo} alt='Hamburger Logo' className='cursor-pointer'/>

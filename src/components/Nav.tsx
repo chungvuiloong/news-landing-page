@@ -23,7 +23,7 @@ const Nav = () => {
                             <ul className='mt-20 flex flex-col lg:hidden gap-5 text-left text-Dark-grayish-blue'>
                                 {
                                     nav_link.map((nav, i)=> 
-                                        <li key={i} className='hover:text-Soft-red cursor-pointer'>
+                                        <li key={i} className='hover:text-Soft-red cursor-pointer font-medium'>
                                             {nav}
                                         </li>
                                     )

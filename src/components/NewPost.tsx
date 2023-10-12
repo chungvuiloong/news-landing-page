@@ -29,7 +29,7 @@ const NewNews = () => {
                     news_data.map((data, i) =>
                     <div key={i} className='flex flex-col gap-1.5'>
                         { i !== 0 ? <hr className='mt-7 mb-5 h-[0.5px] border-t-0 bg-neutral-100 opacity-30' /> : <></>}
-                        <h3 className='text-Off-white text-xl font-bold'>{data.heading}</h3>
+                        <h3 className='text-Off-white text-xl font-bold hover:text-Soft-orange'>{data.heading}</h3>
                         <p className='text-[15px] leading-7'>{data.paragraph}</p>
                     </div>  
                 )}

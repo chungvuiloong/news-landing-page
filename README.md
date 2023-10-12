@@ -45,7 +45,7 @@ Starting with mobile first approach, I analyse both the designs in mobile and de
     - In Headline, background of button changes to Very-dark-blue.
     - In TopThree, the text colour of header changes to Soft-red.
 
-After building, I noticed the alignment is off with the other components unlike the given design. So I changed my design to be grid due its nature of being accurately alignment.
+After building, I noticed the alignment is off with the other components unlike the given design. So I changed my design to be grid and flexbox due its nature of being accurately alignment.
 
 ### Built with
 

@@ -10,15 +10,18 @@ const Nav = () => {
     const [modal, setModal] = useState(false)
 
     return (
-        <section>                    
+        <nav>                    
             {
                 modal ? 
-                    <div className='-pl-[17px] w-screen min-h-screen fixed bg-Soft-red' onClick={()=> setModal(!modal)}>
-                        Open
+                    <div className='-pl-[17px] w-screen min-h-screen fixed flex' onClick={()=> setModal(!modal)}>
+                        <div className='basis-[32%] bg-Very-dark-blue bg-opacity-60'>{" "}</div>
+                        <div className='basis-[68%] bg-Off-white'>
+                            Test
+                        </div>
                     </div>
                 :  <></>
             }
-            <nav className='2xl:pt-[90px] pt-7 2xl:pb-7 pb-0 flex justify-between'>            
+            <div className='2xl:pt-[90px] pt-7 2xl:pb-7 pb-0 flex justify-between container mx-auto'>            
                 <div>
                     <Image src={Logo} alt='Website logo' className='2xl:h-[40px] h-[30px] w-auto '/>
                 </div>            
@@ -46,11 +49,8 @@ const Nav = () => {
                         )
                     }
                 </ul>
-            </nav>                
-
-
-        </section>
-
+            </div>                
+        </nav>
     );
 };
 

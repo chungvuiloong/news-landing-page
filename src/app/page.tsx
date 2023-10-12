@@ -8,8 +8,8 @@ import TopThree from '@/components/TopThree'
 export default function Home() {
   return (
     <main>
+        <Nav />
         <div className='container mx-auto'>
-            <Nav />
             <div className='2xl:grid grid-cols-3 flex flex-col 2xl:gap-8 gap-0'>
                 <HeadLineImage />
                 <Headline />

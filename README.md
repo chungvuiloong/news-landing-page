@@ -24,8 +24,6 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot](./src/assets/screenshot/screenshot.png)
-
 ### Links
 - Solution URL: [Github](https://github.com/chungvuiloong/news-landing-page)
 - Live Site URL: [Vercel](https://mrjays-news-landing-page.vercel.app/)

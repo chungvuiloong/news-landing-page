@@ -27,7 +27,7 @@ Users should be able to:
 ![screenshot](./src/assets/screenshot/screenshot.png)
 
 ### Links
-- Solution URL: [Github](https://github.com/jeresulovuo/news-landing-page)
+- Solution URL: [Github](https://github.com/chungvuiloong/news-landing-page)
 - Live Site URL: [Vercel](https://mrjays-news-landing-page.vercel.app/)
 
 ## My process
@@ -107,6 +107,5 @@ In this challenge, mobile and desktop views are the only given views. I am hopin
 
 ## Author
 
-- Website - [Jere Sulovuo/ MrJay's Simple Portfolio](https://mrjays-simple-portfolio.vercel.app/)
-- Github - [Jere Sulovuo (MrJay)](https://github.com/jeresulovuo)
-- Frontend Mentor - [@jirimicvl](https://www.frontendmentor.io/profile/jirimicvl)
+- Website - [MrJay's Simple Portfolio](https://mrjays-simple-portfolio.vercel.app/)
+- Github - [Chung Vui Loong/ Jere](https://github.com/chungvuiloong)

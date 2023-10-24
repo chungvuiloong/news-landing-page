@@ -10,7 +10,7 @@ const Footer = () => {
                 className='underline underline-offset-4'>
                     Frontend Mentor
             </a>. 
-                Coded with enthusiasm by {""}<a href="https://github.com/jeresulovuo" className='underline underline-offset-4'>Jere Sulovuo (MrJay)</a>.
+                Coded with enthusiasm by {""}<a href="https://github.com/chungvuiloong" className='underline underline-offset-4'>Jere / Chung Vui Loong</a>.
         </footer>
     );
 };
